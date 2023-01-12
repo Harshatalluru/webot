@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.App {
+  background-color: #f9f9f9 ;
+  background-image: url("bg.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: #545454;
+}
+
+#logo {
+    position: absolute;
+    width: 160px;
+    height: 36.02px;
+    left: 60px;
+    top: 60px;
+    
+    background: url("logo1.png");
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 41px;
+  gap: 24px;
+ position: absolute;
+  width: 360px;
+  height: 450px;
+  /* left: 450px; */
+  top: 80px; 
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+  border-radius: 15px;
+}
+#form>img{
+  align-self: center;
+  height: 48px;
+  width: 51px;
+}
+
+#text1{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: -5px;
+  color: black;
+}
+#form>small{
+  text-align: center;
+  font-size: 12px;
+  place-self: center;
+  margin-top: -35px;
+}
+#body{
+  display: grid;
+  place-items: center;
+}
+
+#company{
+  margin-top: -30px;
+  width: 100%;
+  border-radius: 6px;
+  height: 30px;
+  border: 1px solid gray;
+  padding: 2px 2px;
+}
+
+#form>p{
+  margin-top: -5px;
+}
+
+#input{
+  font-size: 14px;
+}
+#company:focus{
+  border: 1px solid gray;
+  outline: none;
+  outline-offset: 0px;
+}
+#select{
+  margin-top: -30px;
+  width: 102%;
+  border-radius: 6px;
+  height: 35px;
+  border: 1px solid gray;
+  padding: 2px 2px;
+  color: #545454;
+}
+
+#buttons{
+  margin-top: -30px;
+}
+#buttons>button{
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  color: #545454;
+}
+
+#buttons>button:hover{
+   cursor: pointer;
+}
+
+#submit{
+  width: 100%;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #3766e8;
+  border: 1px solid #3766e8;
+  padding: 2px 2px;
+  color: white;
+  margin-top: 20px;
+}
+#submit:hover{
+  cursor: pointer;
+}
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  display: grid;
+  place-items: center;
+  width: 100%;
+
+}
+footer>p{
+  text-align: center;
+  font-size: 12px;
+}
